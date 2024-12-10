@@ -1,0 +1,250 @@
+/* src/App.css */
+body{
+    background-color: #28282B;
+}
+.App {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+   }
+   
+   .App h1 {
+    position: relative;
+    color: white;
+    bottom: 80px;
+   }
+   
+   .App .component-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+   }
+   
+   .App .component-container > div {
+    margin: 10px;
+   }
+   
+   .App button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+   }
+   
+   .App .impact-force-button {
+    background-color: yellow; /* Default color */
+   }
+   
+   .App .impact-force-button.heavy {
+    background-color: red;
+   }
+   
+   .App .impact-force-button.moderate {
+    background-color: yellow;
+   }
+   
+   .App .impact-force-button.low {
+    background-color: green;
+   }
+   /* src/App.css */
+.video-feed {
+    position: absolute;
+    left: 50px;
+    top: 60px; /* Adjust as needed */
+    width: 1000px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    background-color: #ccc; /* Placeholder background color */
+    border-radius: 30px;
+   }
+   /* src/App.css */
+.map-placeholder {
+    position: absolute;
+    right: 50px;
+    top: 60px; /* Adjust as needed */
+    width: 350px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    background-color: #ccc; /* Placeholder background color */
+    border-radius: 30px;
+   }
+   /* src/App.css */
+.speed-display {
+    position: absolute;
+    right: 50px;
+    top: 590px; /* Adjust as needed */
+    width: 350px; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
+    background-color:green; /* Placeholder background color */
+    border-radius:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+   }
+   /* src/App.css */
+.capture-button {
+    position: absolute;
+    top: 590px;
+    bottom: 0;
+    left: 50px; /* Adjust as needed */
+    width: 15%; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
+    background-color: #DC6B19; /* Example background color */
+    color: white; /* Example text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:600;
+   }
+   /* src/App.css */
+
+   /* src/App.css */
+.cars-involved-button {
+    position: absolute;
+    top:590px;
+    bottom: 0;
+    left: 825px; /* Adjust as needed */
+    width: 15%; /* Adjust as needed */
+    height: 70px; /* Adjust as needed */
+    background-color: #DC6B19; /* Example background color */
+    color: white; /* Example text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+   }
+   /* src/App.css */
+   .change-video{
+    position: absolute;
+    top:100px;
+    bottom: 0;
+    left: 990px; /* Adjust as needed */
+    width: 4%; /* Adjust as needed */
+    height: 430px; /* Adjust as needed */
+    background-color: #808080; /* Example background color */
+    color: white; /* Example text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .center-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+}
+    .arrow{
+        position:absolute;
+        left: 1000px;
+        top: 290px;
+    }
+   
+    .logo{
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+
+.upload-button{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin-left: 1070px;
+    bottom: 170px;
+}
+
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.modal {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #9694FF;
+  width: 700px;
+  height: 600px;
+  position: relative;
+  margin-left: 460px;
+  margin-top: 150px;
+  border-radius: 50px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.modal h3{
+    position: relative;
+    font-weight: bolder;
+    font-size: larger;
+    bottom: 50px;
+    margin-top: 50px;
+}
+.modal form{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 30px; */
+}
+.modal form input{
+    margin-top: 10px;
+    width: 500px;
+}
+.modal form div{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.modal form label{
+    font-weight: bold;
+}
+.modal .submit-button{
+    margin-top: 40px;
+}
+.modal button{
+    width: 200px;
+    margin-left: 150px;
+}
+.modal .close-button{
+    margin-top: 30px;
+    margin-right: 150px;
+    left: 0px;
+}
+.dividerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    height: 10px;
+}
+.divider{
+    width: 210px;
+    height: 2px;
+    border: black;
+    background-color: black;
+    margin-left: 10px;
+}
+.dividerContainer p{
+    margin-bottom: 35px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.locationoptions{
+    border: black;
+    border-width: 2px;
+}
